@@ -1,0 +1,29 @@
+{
+  "log_level": "warning",
+  "comment_on_log_level" : "log_level can be debug, info, warning, error, dummy",
+  "autoscan": true,
+  "comment_on_autoscan": "auto-scan can be true or false",
+  "usb-mcu": {
+    "enabled": true,
+    "comment": "iei msp-430 mcu controller"
+  },
+  "hid-f75114": {
+    "enabled": false,
+    "comment": "0x1d6b:0x0002 is ASM1042 usb 2.0 port ;0x0424:0x2514 is Microsystems usb hub",
+    "parent_paths": [
+    ]
+  },
+  "ioexpander": {
+    "enabled": false,
+    "i2c_addr": [
+      37,
+      39
+    ]
+  },
+  "mcu": {
+    "enabled": false,
+    "i2c_addr": [
+      31
+    ]
+  }
+}
